@@ -6,6 +6,7 @@
 
 (function($) {
 
+
 	var $window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
@@ -93,8 +94,6 @@
 
 			}
 
-	// Main Sections: Two.
-
-		
+	
 
 })(jQuery);
