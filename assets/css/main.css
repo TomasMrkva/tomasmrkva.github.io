@@ -32,8 +32,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch; 
-
 }
 
 
@@ -80,7 +78,9 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		/*scroll-behavior: smooth;*/
+		scroll-behavior: smooth;
+		overflow-y: scroll;
+
 	}
 
 	*, *:before, *:after {
